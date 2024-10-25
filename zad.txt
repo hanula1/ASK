@@ -1,0 +1,16 @@
+Kształtowanie ruchu sieciowego 
+pomiędzy rodzajami usług w Linux 
+dla ruchu wychodzącego i przychodzącego
+
+1. skonfigurować proste środowisko sieciowe 
+z 1 serwerem NAT i 1 komputerem dodatkowym
+
+2. za pomocą iptables i Traffic Control 
+(lub dowolnych innych narzędzi) 
+zaimplementować kształtowanie ruchu na zasadzie:
+
+    70% łącza dla HTTP/HTTPS
+
+    25% łącza dla SMTP/POP3/IMAP
+
+    5% łącza dla ICMP
